@@ -1,0 +1,85 @@
+# Python virtual environments
+/.venv/
+/venv/
+/env/
+.python-version
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build products
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Vendored LeRobot source: keep code, exclude its local upstream history and
+# non-source artifacts.
+/lerobot/.git-upstream/
+/lerobot/tests/artifacts/
+/lerobot/media/
+/lerobot/outputs/
+/lerobot/lerobot-find-cameras
+/lerobot/python
+
+# External repository cloned for this project
+/mujoco_menagerie/
+
+# LeRobot training, recording, and experiment artifacts
+/data/
+/datasets/
+/outputs/
+/checkpoints/
+/runs/
+/logs/
+/videos/
+/wandb/
+*.log
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Robotics recording formats
+*.bag
+*.bag.active
+*.db3
+*.mcap
+
+# MuJoCo generated binaries and recordings
+*.mjb
+*.mp4
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local agent state
+/.agents/
+/.codex/
+
+# IDE and editor files
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Downloaded reference manual (large local file)
+/SO-ARM101开源6轴机械臂使用文档.pdf
